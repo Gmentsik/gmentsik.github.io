@@ -2495,7 +2495,7 @@
 /* Footer */
 
 	#footer {
-		bottom: 0;
+		bottom: -5em;
 		left: 0;
 		padding: 0 4em 6em 0;
 		position: fixed;
@@ -2513,7 +2513,7 @@
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.4);
-			font-size: 0.8em;
+			font-size: 0.55em;
 			list-style: none;
 			margin: 1em 0 0 0;
 			padding: 0;
