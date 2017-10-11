@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to: CI/CD with Gitlab
+title: How to | CI/CD with Gitlab
 date: 2017-09-14T14:37:44.000Z
 categories: Continuous Integration
 ---
@@ -85,7 +85,6 @@ variables:
 ## Stage: Test
 Our next step is to define our first stage: "test"
 
-<pre class="wide"><code>
 ```
 > .gitlab-ci.yml
 variables:

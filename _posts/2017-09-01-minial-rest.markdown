@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to: Minimal Microservice with Java (EE) and Docker
+title: How to | Minimal Microservice with Java (EE) and Docker
 date: 2017-09-01T17:38:24.000Z
 categories: REST, JAVA
 ---
