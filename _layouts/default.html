@@ -33,14 +33,14 @@
 		<div class="row">
 			<article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
 				<header>
-					<h2><a href="{{ page.previous.url }}">{{ post.title }}</a></h2>
+					<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 				</header>
 				<section>
 					{{ post.excerpt }}
 				</section>
 				<footer>
 					<ul class="actions">
-						<li><a href="{{ page.url }}" class="button">Read More</a></li>
+						<li><a href="{{ post.url }}" class="button">Read More</a></li>
 					</ul>
 				</footer>
 			</article>
