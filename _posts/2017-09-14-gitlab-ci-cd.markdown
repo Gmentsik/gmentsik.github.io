@@ -7,7 +7,7 @@ github: Gmentsik/gly-cicd-01
 excerpt: We will create a CI/CD pipeline for a Java Microservice. This service will run in a docker-container. The pipeline will be triggered when pushing to the git repo. We will define some tasks that will be automatically executed.
 ---
 
-<a href="https://github.com/{{ page.title }}"><img src="/images/checkout-copy.PNG" style="float: right;margin-left:10px;width:200px"/></a>
+<a href="https://github.com/{{ page.github }}"><img src="/images/checkout-copy.PNG" style="float: right;margin-left:10px;width:200px"/></a>
 
 
 We will create a CI/CD pipeline for a Java Microservice. This service will run in a docker-container.
