@@ -2,7 +2,7 @@
 layout: post
 title: How to | Minimal Microservice with Java (EE) and Docker
 date: 2017-09-01T17:38:24.000Z
-categories: REST, JAVA
+categories: REST
 excerpt: Microservices, Java and Docker is the way to go if we are building distributed systems. Exposing our services via REST interfaces is a good practice. Since a microservice should stay small and do one thing, keeping its dependencies, size and boundaries on a bare minimum assures a good performance and flexibility.
 ---
 <a href="https://github.com/Gmentsik/gly-jmss-01"><img src="/images/checkout-copy.PNG" style="float: right;margin-left:10px;width:200px"/></a>

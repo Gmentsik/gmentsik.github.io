@@ -2,7 +2,7 @@
 layout: post
 title: How to | CI/CD with Gitlab
 date: 2017-09-14T14:37:44.000Z
-categories: Continuous Integration
+categories: CI
 excerpt: We will create a CI/CD pipeline for a Java Microservice. This service will run in a docker-container. The pipeline will be triggered when pushing to the git repo. We will define some tasks that will be automatically executed.
 ---
 
