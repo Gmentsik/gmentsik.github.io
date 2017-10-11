@@ -28,8 +28,24 @@
       <a href="{{ site.url }}" class="image avatar"><img class="editable" src="/images/avatar.jpg" alt="{{ site.author.name }}"></a>
       <h1 class="editable">I’m a software developer and about to finish my studies in Vienna.</h1>
     </header>
+		{% for post in site.posts %}
+		<div class="row">
+			<article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
+				<header>
+					<h2><a href="{{ page.previous.url }}">{{ post.title }}</a></h2>
+				</header>
+				<section>
+					{{ post.excerpt }}
+				</section>
+				<footer>
+					<ul class="actions">
+						<li><a href="{{ page.url }}" class="button">Read More</a></li>
+					</ul>
+				</footer>
+			</article>
+		</div>
+		{% endfor %}
 
-    {{ content }}
 
     <footer id="footer">
       <p class="editor-link"><a href="cloudcannon:collections/_data/social.yml" class="button"><strong>&#9998;</strong> Update Social Icons</a></p>
