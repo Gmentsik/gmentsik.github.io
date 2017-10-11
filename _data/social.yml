@@ -1,8 +1,20 @@
 - name: Facebook
-  link: 'https://www.facebook.com/comfusionllc'
+  link: 'https://www.facebook.com/gergely.mentsik'
   social_icon: Facebook
   new_window: true
 - name: RSS
   link: '/feed.xml'
   social_icon: RSS
+  new_window: true
+- name: LinkedIn
+  link: 'https://www.linkedin.com/in/gergely-mentsik-424260134'
+  social_icon: LinkedIn
+  new_window: true
+- name: LinkedIn
+  link: 'https://www.xing.com/profile/Gergely_Mentsik'
+  social_icon: XING
+  new_window: true
+- name: GitHub
+  link: 'https://github.com/gmentsik'
+  social_icon: github
   new_window: true
