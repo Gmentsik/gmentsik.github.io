@@ -4,10 +4,8 @@ title: How to | Encrypt Files Client Side Using Angular 4
 date: 2017-08-26T10:48:14.000Z
 categories: Angular4
 excerpt: We will use **CryptoJS** to encrypt,  and **FileReader** to read a file. Furthermore,  we will split our files in **chunks** in order to manage memory usage.
+github: Gmentsik/gly-ng2-filenecrypt
 ---
-
-<a href="https://github.com/Gmentsik/gly-ng2-filenecrypt"><img src="/images/checkout-copy.PNG" style="float: right;margin-left:10px;width:200px"/></a>
-
 We will use **CryptoJS** to encrypt,  and **FileReader** to read a file.
 Furthermore,  we will split our files in **chunks** in order to manage memory usage.
 
