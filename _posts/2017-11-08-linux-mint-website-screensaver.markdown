@@ -5,8 +5,8 @@ date: 2017-11-08T10:48:14.000Z
 categories: linux
 excerpt: Display a website as your lockscreen
 github: Gmentsik/linux-mint-website-screensaver
+image: /images/posts/04/grafana.png
 ---
-![grafana](/images/posts/04/grafana.png)
 
 Since I'm monitoring everything I can with grafana and really like the graphs,
 I was looking for a way to display grafana as my lock screen / screensaver.
