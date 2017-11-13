@@ -9,8 +9,8 @@ layout: base
 			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 		</header>
 		<section>
-			{% if page.image %}
-				<img src="{{ page.image }}" class="fit image">
+			{% if post.image %}
+				<img src="{{ post.image }}" class="fit image">
 			{% endif %}
 			{{ post.excerpt }}
 		</section>
