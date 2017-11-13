@@ -15,8 +15,9 @@ layout: base
     </header>
 
     <section>
-
-      <img src="{{ page.image }}" class="fit image">
+      {% if page.image %}
+        <img src="{{ page.image }}" class="fit image">
+      {% endif %}
       {{ content }}
     </section>
 
