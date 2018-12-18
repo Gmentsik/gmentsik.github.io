@@ -4,11 +4,8 @@ title: How to | Use go mod and have your go project outside GOPATH
 date: 2018-12-18T10:48:14.000Z
 categories: golang
 excerpt: Quickstart guide on how to use go mod to version your dependencies and keep your go projects outside your go path
+image: /images/posts/05/Go-Logo_LightBlue.png
 ---
-
-# How to use go mod and have your go project outside GOPATH
-
-
 ## 1 Init gomod in your project
 
 inside your project directory do
