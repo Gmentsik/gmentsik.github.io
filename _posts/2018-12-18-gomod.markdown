@@ -1,0 +1,50 @@
+---
+layout: post
+title: How to | Use go mod and have your go project outside GOPATH
+date: 2018-12-18T10:48:14.000Z
+categories: golang
+excerpt: Quickstart guide on how to use go mod to version your dependencies and keep your go projects outside your go path
+---
+
+# How to use go mod and have your go project outside GOPATH
+
+
+## 1 Init gomod in your project
+
+inside your project directory do
+
+```
+go mod init git.yourrepo.com/group/mygoproject
+```
+
+if you don't use git just replace `git.yourrepo.com/group/mygoproject` with `mygoproject`
+
+## 2 Update your dependencies
+
+```
+go get -u ./...
+```
+
+This will get all your dependencies and store them in your `go.mod` file, which you created earlier. This ill also create a `go.sum` file.
+
+### 3 Add your go.sum and go.mod files to your git repo
+
+This will ensure that everyone who clones your project will end up with the same dependencies.
+
+### 4 Optional: Vendoring
+
+If you want to be able to build your project offline or you think the source of a library will be removed in the future, you can use `go mod` to download all dependencies in a folder called `vendor` in your project's root. 
+
+You can add the `vendor` directory to `git`, although it will bloat your repo.
+
+By default, `go mod` does **not** use vendoring, you have to run
+
+```
+go build -mod vendor
+```
+
+Keep in mind that vendoring is not an ideal solution and you may want to use a proxy cache instead.
+
+### Stuff
+
+If you just want versioning of your dependencies but keep your files in your GOPATH you have to set `GO111MODULES=on` in your environment variables.
